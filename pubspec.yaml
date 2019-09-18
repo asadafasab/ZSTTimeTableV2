@@ -1,0 +1,30 @@
+name: ZSTPlan
+description: Simple time table app
+version: 2.2+18
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: any
+  html: any
+  sqflite: any
+  path_provider: any
+  cupertino_icons: ^0.1.2
+  url_launcher: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon.png"
+
+
+flutter:
+  uses-material-design: true
